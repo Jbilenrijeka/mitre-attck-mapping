@@ -1,0 +1,4 @@
+observation_id,observed_behavior,evidence,confidence
+OBS-01,Multiple failed logons followed by success,Simulated authentication CSV records,Moderate that pattern occurred; low about intent
+OBS-02,PowerShell process used encoded-command argument,Simulated process command line only,"Low until parent process, user, and script context are reviewed"
+OBS-03,DNS query to a training watchlist domain,Simulated DNS metadata,High that query is in sample; no claim of real maliciousness
